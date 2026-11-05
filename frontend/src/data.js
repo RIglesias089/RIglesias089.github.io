@@ -16,3 +16,32 @@ export const stack = [
     { grupo: 'Backend', items: ['Node.js', 'Express', 'Java', 'C++'] },
     { grupo: 'Datos', items: ['PostgreSQL', 'SQL Server'] },
 ]
+
+//Ahora con los datos de formacion, creamos un array el cual se divide con las {}
+export const formacion = [
+    {
+        tipo: 'Estudios',
+        titulo: 'Ingeniería Informática',
+        entidad: 'Nombre de tu universidad', // REEMPLAZA
+        periodo: 'En curso', // REEMPLAZA (por ejemplo: 2024 – actualidad)
+        detalle:
+            'Describe en dos o tres líneas qué estás estudiando y qué materias te sirven para tus proyectos (bases de datos, programación, redes...).', // REEMPLAZA
+        url: '',
+    },
+    {
+        tipo: 'Certificación',
+        titulo: 'Nombre de la certificación 1', // REEMPLAZA
+        entidad: 'Quién la emitió', // REEMPLAZA
+        periodo: 'Año', // REEMPLAZA
+        detalle: 'Qué aprendiste y para qué te sirve.', // REEMPLAZA
+        url: '', // enlace a la credencial, si lo tienes
+    },
+    {
+        tipo: 'Certificación',
+        titulo: 'Nombre de la certificación 2', // REEMPLAZA
+        entidad: 'Quién la emitió', // REEMPLAZA
+        periodo: 'Año', // REEMPLAZA
+        detalle: 'Qué aprendiste y para qué te sirve.', // REEMPLAZA
+        url: '',
+    },
+]
