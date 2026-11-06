@@ -1,6 +1,6 @@
 //Creamos el objeto para que sea accesible para otros como perfil
 export const perfil = {
-    nombre: 'Ricardo Iglesias', // REEMPLAZA si tu nombre público es otro
+    nombre: 'Ricardo Iglesias',
     rol: 'Desarrollador de software',
     ubicacion: 'El Salvador · UTC−6',
     resumen:
