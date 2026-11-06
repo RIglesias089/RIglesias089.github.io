@@ -1,7 +1,5 @@
 import { useState } from 'react'
-//Para colocar la foto hay que ponerla en el apartado de public
-// Coloca tu foto en: frontend/public/foto.jpg
-// Si el archivo no existe, se muestra el recuadro de ejemplo.
+
 export default function Foto({ nombre }) {
     const [falta, setFalta] = useState(false)
     const iniciales = nombre
@@ -19,7 +17,7 @@ export default function Foto({ nombre }) {
                 </div>
             ) : (
                 <img
-                    src={`${import.meta.env.BASE_URL}foto.jpg`}
+                    src={`${import.meta.env.BASE_URL}Foto_presentacion.jpg`}
                     alt={`Foto de ${nombre}`}
                     onError={() => setFalta(true)}
                 />
