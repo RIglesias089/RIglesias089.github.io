@@ -57,3 +57,22 @@ function Pie() {
     )
 }
 
+//definimos la estructura principal de la pagina, llamando a lo creado en las funciones anteriore
+export default function App() {
+    return (
+        <div className="app">
+            <SubirAlCambiar />
+            <Cabecera />
+            <main>
+                <Routes>
+                    <Route path="/" element={<Inicio />} />
+                    <Route path="/certificaciones" element={<Certificaciones />} />
+                    <Route path="/proyectos" element={<Proyectos />} />
+                    <Route path="*" element={<Inicio />} />
+                </Routes>
+            </main>
+            <Pie />
+        </div>
+    )
+}
+
