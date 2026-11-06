@@ -14,5 +14,21 @@ function SubirAlCambiar() {
   return null
 }
 
-
+//Implementamos una funcion la cual crea la cabecera de la pagina con HTML
+function Cabecera() {
+  return(
+      <header className="cabecera">
+        <Link to="/" className="marca">
+          {perfil.nombre}
+        </Link>
+        <nav aria-label="Principal">
+          <NavLink to="/" end>
+            Inicio
+          </NavLink>
+          <NavLink to="/certificaciones">Formación</NavLink>
+          <NavLink to="/proyectos">Proyectos</NavLink>
+        </nav>
+      </header>
+  )
+}
 
