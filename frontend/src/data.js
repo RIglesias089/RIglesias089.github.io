@@ -4,7 +4,7 @@ export const perfil = {
     rol: 'Desarrollador web',
     ubicacion: 'El Salvador · UTC−6',
     resumen:
-        'Desarrollo sitios y aplicaciones con JavaScript, Node.js, Express y React, apoyados en bases de datos PostgreSQL y SQL Server. Mi backend también puede construirse con Java o C++. Estudiante de Ingeniería Informática.',
+        'Desarrollador web y de aplicaciones móviles, en constante aprendizaje. Busco proyectos que supongan un reto y en los que pueda aportar soluciones funcionales, bien probadas y pensadas para quien las va a usar.',
     github: 'https://github.com/RIglesias089',
     correo: 'iglesiasricardozhongli@gmail.com',
     linkedin: 'https://www.linkedin.com/in/ricardo-iglesias-398aaa345/',
@@ -23,25 +23,25 @@ export const formacion = [
         tipo: 'Estudios',
         titulo: 'Desarrollo de aplicaciones moviles',
         entidad: 'Colegio "Joyas de Ceren"',
-        periodo: '16/01/2024 - 17/11/2024',
+        periodo: '2024',
         detalle:
             'Diplomado en desarrollo de aplicaciones moviles, con Android Studio y lenguajes de Java y XML.',
         url: '',//Archivo pdf de el diplomado en google drive.
     },
     {
         tipo: 'Estudios',
-        titulo: 'Diplomado en ',
+        titulo: 'Diplomado en "Machine Learning Elements"',
         entidad: 'Universidad Centroamericana "Jose Simeon Cañas',
         periodo: '2025',
-        detalle: '',
+        detalle: 'Diplomado en Machine Learning habilidades técnicas y prácticas que permiten transformar grandes volúmenes de datos en decisiones estratégicas e innovadoras',
         url: '',
     },
     {
         tipo: 'Estudios',
-        titulo: 'Diplomado en',
-        entidad: '', 
+        titulo: 'Diplomado en "Data Analyst Fundamentals"',
+        entidad: 'IBM',
         periodo: '2025',
-        detalle: '',
+        detalle: 'Capacitacion desde cero para el manejo, interpretacion y comunicacion de datos.',
         url: '',
     },
 ]
