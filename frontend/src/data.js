@@ -45,3 +45,15 @@ export const formacion = [
         url: '',
     },
 ]
+
+//Arreglo que tendra los distintos proyectos creados junto sus links a github
+export const proyectos = [
+    {
+        titulo: 'Nombre de tu proyecto',
+        resumen: 'Una línea que diga qué hace y para quién.',
+        detalle: 'Problema que resuelve, qué parte hiciste tú y qué aprendiste.',
+        stack: ['React', 'Node.js', 'Express'],
+        repo: 'https://github.com/RIglesias089/NOMBRE-DEL-REPO',
+        demo: '',
+    },
+]
