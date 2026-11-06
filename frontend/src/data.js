@@ -49,11 +49,11 @@ export const formacion = [
 //Arreglo que tendra los distintos proyectos creados junto sus links a github
 export const proyectos = [
     {
-        titulo: 'Nombre de tu proyecto',
-        resumen: 'Una línea que diga qué hace y para quién.',
-        detalle: 'Problema que resuelve, qué parte hiciste tú y qué aprendiste.',
-        stack: ['React', 'Node.js', 'Express'],
-        repo: 'https://github.com/RIglesias089/NOMBRE-DEL-REPO',
+        titulo: 'Snowlist',
+        resumen: 'Aplicacion para la gestion de tareas y recordatorios, para estudiantes y trabajadores y todo aquel que quiera organizar su vida',
+        detalle: 'Busca implementar en un solo lugar als funciones que todo estudiantes y trabajador buscan, desde gestion en el calendario, tareas y listado de objetivos de las tareas.',
+        stack: ['Java', 'XML', 'JavaFX'],
+        repo: 'https://github.com/RIglesias089/Gestionador_tareas.git',
         demo: '',
     },
 ]
