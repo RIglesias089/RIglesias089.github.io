@@ -154,7 +154,7 @@ main {
   position: relative;
   aspect-ratio: 4 / 5;
   max-width: 100%;
-  width: min(100%, 22rem);
+  width: min(100%, 15rem); /*tamanio de la foto*/
   justify-self: end;
 }
 
