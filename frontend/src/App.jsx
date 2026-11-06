@@ -32,3 +32,28 @@ function Cabecera() {
   )
 }
 
+//Implementamos una funcion la cual crea el HTML con el pie de la pagina
+function Pie() {
+    return (
+        <footer className="pie" id="contacto">
+            <h2>¿Tienes un proyecto en mente?</h2>
+            <div className="acciones">
+                {perfil.correo && (
+                    <span className="correo">
+            <span className="etiqueta">Correo</span> {perfil.correo}
+          </span>
+                )}
+                <a className="enlace" href={perfil.github} target="_blank" rel="noopener noreferrer">
+                    GitHub ↗
+                </a>
+                {perfil.linkedin && (
+                    <a className="enlace" href={perfil.linkedin} target="_blank" rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+                )}
+            </div>
+            <p className="etiqueta">© {new Date().getFullYear()} {perfil.nombre}</p>
+        </footer>
+    )
+}
+
