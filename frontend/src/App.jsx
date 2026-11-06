@@ -1,5 +1,4 @@
 //importamos los componentes y demas de react que usarmeos
-
 import { useEffect } from 'react'
 import { NavLink, Link, Route, Routes, useLocation } from 'react-router-dom'
 import Inicio from './pages/Inicio.jsx'
