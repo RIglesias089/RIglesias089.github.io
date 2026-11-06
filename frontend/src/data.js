@@ -21,27 +21,27 @@ export const stack = [
 export const formacion = [
     {
         tipo: 'Estudios',
-        titulo: 'Ingeniería Informática',
-        entidad: 'Nombre de tu universidad', // REEMPLAZA
-        periodo: 'En curso', // REEMPLAZA (por ejemplo: 2024 – actualidad)
+        titulo: 'Desarrollo de aplicaciones moviles',
+        entidad: 'Colegio "Joyas de Ceren"',
+        periodo: '16/01/2024 - 17/11/2024',
         detalle:
-            'Describe en dos o tres líneas qué estás estudiando y qué materias te sirven para tus proyectos (bases de datos, programación, redes...).', // REEMPLAZA
+            'Diplomado en desarrollo de aplicaciones moviles, con Android Studio y lenguajes de Java y XML.',
+        url: '',//Archivo pdf de el diplomado en google drive.
+    },
+    {
+        tipo: 'Estudios',
+        titulo: 'Diplomado en ',
+        entidad: 'Universidad Centroamericana "Jose Simeon Cañas',
+        periodo: '2025',
+        detalle: '',
         url: '',
     },
     {
-        tipo: 'Certificación',
-        titulo: 'Nombre de la certificación 1', // REEMPLAZA
-        entidad: 'Quién la emitió', // REEMPLAZA
-        periodo: 'Año', // REEMPLAZA
-        detalle: 'Qué aprendiste y para qué te sirve.', // REEMPLAZA
-        url: '', // enlace a la credencial, si lo tienes
-    },
-    {
-        tipo: 'Certificación',
-        titulo: 'Nombre de la certificación 2', // REEMPLAZA
-        entidad: 'Quién la emitió', // REEMPLAZA
-        periodo: 'Año', // REEMPLAZA
-        detalle: 'Qué aprendiste y para qué te sirve.', // REEMPLAZA
+        tipo: 'Estudios',
+        titulo: 'Diplomado en',
+        entidad: '', 
+        periodo: '2025',
+        detalle: '',
         url: '',
     },
 ]
